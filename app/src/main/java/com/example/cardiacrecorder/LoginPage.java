@@ -35,10 +35,5 @@ public class LoginPage extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        Toast.makeText(LoginPage.this,"testing",Toast.LENGTH_SHORT).show();
-        Toast.makeText(LoginPage.this,"testing 2",Toast.LENGTH_SHORT).show();
-        Toast.makeText(LoginPage.this,"testing 3",Toast.LENGTH_SHORT).show();
-        Toast.makeText(LoginPage.this,"testing 4",Toast.LENGTH_SHORT).show();
     }
 }
