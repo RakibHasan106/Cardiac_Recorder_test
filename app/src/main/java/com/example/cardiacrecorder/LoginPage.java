@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class LoginPage extends AppCompatActivity {
 
@@ -34,5 +35,7 @@ public class LoginPage extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Toast.makeText(LoginPage.this,"testing",Toast.LENGTH_SHORT).show();
     }
 }
